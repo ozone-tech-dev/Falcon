@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
+import Head from '../../assets/Template-Pic/head.png'
+import center from '../../assets/Template-Pic/center.jpg'
+import side from '../../assets/Template-Pic/right.png'
 
 export const Templates = () => {
   return (
@@ -15,16 +19,42 @@ export const Templates = () => {
             <div className='flex gap-16  justify-center items-center py-4 '>
                 <div><button className='text-white bg-blue-500 px-4 py-2 rounded'>Get started</button></div>
                 <div>
-                    <p>5M +</p>
-                    <p>users</p>
+                    <p className='font-bold'>5M +</p>
+                    <p className='text-gray-400'>users</p>
                 </div>
                 <div>
-                    <p>10K+</p>
-                    <p>Templates</p>
+                    <p  className='font-bold'>10K+</p>
+                    <p className='text-gray-400'>Templates</p>
                 </div>
             </div>
         </div>
-        <div></div>
+
+        <div className='flex  flex-col  justify-center items-center py-32  bg-gradient-to-t from-indigo-500 to-blue-500'> 
+           <div>
+           <Image
+            src={Head}
+            alt="Picture of the author"
+            // className='w-24 h-20'
+            className='object-contain	 w-[1000px] '
+            />
+           </div>
+           <div className='flex '>
+                <div>
+                    <Image
+                    src={center}
+                    alt="Picture of the author"
+                    className='w-[800px] h-[500px] object-fill'
+                    />
+                </div>
+                <div>
+                    <Image
+                    src={side}
+                    alt="Picture of the author"
+                    className='w-[200px] h-[500px] object-fill	'
+                    />
+                </div>
+           </div>
+        </div>
     </div>
   )
 }
