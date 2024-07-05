@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import { Templates } from "@/components/global/Templates";
 export default function Home() {
   return (
-    <div className="flex justify-center font-bold text-4xl underline">
-      Hello
+    <div >
+      <Templates/>
     </div>
   );
 }

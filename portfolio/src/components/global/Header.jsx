@@ -5,7 +5,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 export const Header = () => {
   return (
-    <div className='flex justify-center gap-60 '>
+    <div className='flex justify-center gap-60 sticky '>
         <div>
             <a href="/">
             <Image
@@ -17,7 +17,7 @@ export const Header = () => {
         </div>
         <div className='flex gap-10  relative top-8 '>
             <a href="#template" className='flex hover:underline'> 
-                <p className='text-white ' >Template </p> 
+                <p className='text-white ' >Templates </p> 
                 <small><RiArrowDropDownLine className='w-7 h-7'/></small>
             </a> 
             <a href="#galleries " className='flex hover:underline'> 
@@ -29,7 +29,7 @@ export const Header = () => {
         </div>
         <div className=' relative top-6'>
             <div className='flex gap-4'>
-                <button className='text-white bg-black px-6 py-2 rounded focus-visible:disabled'>Login</button>
+                <button className='text-white bg-gray-950 px-6 py-2 rounded  focus-visible:disabled'>Login</button>
                 <button className='text-white bg-blue-500 px-4 py-2 rounded'>Sign Up</button>
             </div>
         </div>
