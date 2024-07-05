@@ -12,3 +12,11 @@
 body {
   @apply bg-black text-white;
 }
+
+@layer base {
+  :root {
+    --color-text-base: #grayCCCCCC;  /* Light gray for text */
+    --font-text-base: Poppins;
+    --color-fill: #111215;      /* Light gray for background */
+  }
+}
