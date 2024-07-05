@@ -9,8 +9,8 @@ export const About = () => {
             <p className='text-5xl font-semibold'>Create and Customize</p>
             <p className='text-5xl font-semibold'>your portfolio in minutes</p>
             <p>you can make a beautiful portfolio website with our platform</p>
-        </div>
-        <div className='flex gap-20 justify-center items-center py-20'>
+        </div>  
+        <div className='flex gap-20 justify-center items-center py-20 '>
             <div className='flex  flex-col gap-7'>
                 <div className='bg-skin-fill py-4 rounded-md flex flex-col justify-center items-center  w-[450px]'>
                     <p className='text-2xl font-bold py-3 '>Building Personal Portfolios </p>
