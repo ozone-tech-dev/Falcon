@@ -29,7 +29,7 @@ export const Templates = () => {
             </div>
         </div>
 
-        <div className='flex  flex-col  justify-center items-center py-32  bg-gradient-to-t from-indigo-500 to-blue-500'> 
+        <div className='flex  flex-col  justify-center items-center py-32 '> 
            <div>
            <Image
             src={Head}
