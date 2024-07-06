@@ -10,7 +10,7 @@ import img6 from '../../../public/assets/Galleries/img6.jpg'
 
 export const Galleries = () => {
   return (
-    <div className='py-10' id='grad1'>
+    <div className='py-10  grad1' id='galleries'>
 
         <div className='flex flex-col justify-center items-center'>
             <p className='font-bold text-3xl'>Made with Falcon</p>

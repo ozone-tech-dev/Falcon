@@ -29,4 +29,7 @@ body {
   background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
 }
 
+.grad1{
+  background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
+}
 /* background-color: red; For browsers that do not support gradients */

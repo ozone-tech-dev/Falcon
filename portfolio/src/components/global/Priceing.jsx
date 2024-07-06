@@ -3,7 +3,7 @@ import { LuCheck } from "react-icons/lu";
 
 export const Priceing = () => {
   return (
-    <div className='pt-40  pb-60'>
+    <div className='pt-40  pb-60' id='pricing'>
         <div className='flex flex-col justify-center items-center'>
             <p className='text-4xl font-semibold'>Our pricing is fair and simple</p>
             <p className=' text-gray-400 text-[10px]  py-5'>Making your portfolio with this price is a peace of cake </p>

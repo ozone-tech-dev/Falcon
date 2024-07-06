@@ -6,7 +6,7 @@ import side from '../../../public/assets/Template-Pic/right.png'
 
 export const Templates = () => {
   return (
-    <div className='py-28'>
+    <div className='py-28' id='template'>
         <div>
             <div className='flex flex-col  justify-center items-center '>
                 <p className='text-5xl font-bold'>Build Your <small className='text-5xl font-bold text-blue-600'>portfolio </small> </p> 
