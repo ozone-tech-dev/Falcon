@@ -28,7 +28,9 @@ export const Priceing = () => {
                 <div className='pt-28'>
                     <p  className='flex gap-5'>
                         <p>699</p>
-                        <p>100 Birr</p>
+                        {/* <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-500 py-[0.7px]"/> */}
+                        <hr className='w-10 relative border-2 top-[10px] right-[55px]'/>
+                        <p className='relative right-16'>100 Birr</p>
                     </p>
                 </div>
 
@@ -64,8 +66,8 @@ export const Priceing = () => {
                 <div className='pt-40 '>
                     <p className='flex gap-5'>
                         <p>1000</p>
-                        <hr className='relative bottom-4'/>
-                        <p>100 Birr</p>
+                        <hr className='w-10 relative border-2 top-[10px] right-[55px]'/>
+                        <p className='relative right-16'>100 Birr</p>
                     </p>
 
                     <div className='py-16 pt-10'>
@@ -101,7 +103,8 @@ export const Priceing = () => {
                 <div className='pt-52 '>
                     <p  className='flex gap-5'>
                         <p>3000</p>
-                        <p>100 Birr</p>
+                        <hr className='w-10 relative border-2 top-[10px] right-[55px]'/>
+                        <p className='relative right-16'>100 Birr</p>
                     </p>
 
                     <div className='pb-16 pt-10'>
