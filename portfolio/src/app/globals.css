@@ -20,3 +20,13 @@ body {
     --color-fill: #111215;      /* Light gray for background */
   }
 }
+
+
+#grad1 {
+  /* height: 100px; */
+  /* background-color: red; For browsers that do not support gradients */
+  /* background-image: linear-gradient(to right,black,  blue,  black); */
+  background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
+}
+
+/* background-color: red; For browsers that do not support gradients */

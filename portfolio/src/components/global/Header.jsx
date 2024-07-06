@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from '../../assets/logo/ozon.png'
+import Logo from '../../../public/assets/logo/ozon.png'
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 export const Header = () => {

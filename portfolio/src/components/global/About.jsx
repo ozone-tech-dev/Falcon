@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import AboutImg from '../../assets/Template-Pic/aboutImg.png'
+import AboutImg from '../../../public/assets/Template-Pic/aboutImg.png'
 
 export const About = () => {
   return (
-    <div className='  gap-20'>
+    <div className='  gap-20' >
         <div className='flex flex-col justify-center items-center'>
             <p className='text-5xl font-semibold'>Create and Customize</p>
             <p className='text-5xl font-semibold'>your portfolio in minutes</p>

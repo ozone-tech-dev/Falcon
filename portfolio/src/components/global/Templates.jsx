@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Head from '../../assets/Template-Pic/head.png'
-import center from '../../assets/Template-Pic/center.jpg'
-import side from '../../assets/Template-Pic/right.png'
+import Head from '../../../public/assets/Template-Pic/head.png'
+import center from '../../../public/assets/Template-Pic/center.jpg'
+import side from '../../../public/assets/Template-Pic/right.png'
 
 export const Templates = () => {
   return (
@@ -29,7 +29,7 @@ export const Templates = () => {
             </div>
         </div>
 
-        <div className='flex  flex-col  justify-center items-center py-32 '> 
+        <div className='flex  flex-col  justify-center items-center py-32 ' id='grad1'> 
            <div>
            <Image
             src={Head}

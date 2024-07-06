@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
-import img1 from '../../assets/Galleries/img1.jpg'
-import img2 from '../../assets/Galleries/img2.jpg'
-import img3 from '../../assets/Galleries/img3.jpg'
-import img4 from '../../assets/Galleries/img4.jpg'
-import img5 from '../../assets/Galleries/img5.jpg'
-import img6 from '../../assets/Galleries/img6.jpg'
+import img1 from '../../../public/assets/Galleries/img1.jpg'
+import img2 from '../../../public/assets/Galleries/img2.jpg'
+import img3 from '../../../public/assets/Galleries/img3.jpg'
+import img4 from '../../../public/assets/Galleries/img4.jpg'
+import img5 from '../../../public/assets/Galleries/img5.jpg'
+import img6 from '../../../public/assets/Galleries/img6.jpg'
 
 
 export const Galleries = () => {
   return (
-    <div className='py-5'>
+    <div className='py-10' id='grad1'>
 
         <div className='flex flex-col justify-center items-center'>
             <p className='font-bold text-3xl'>Made with Falcon</p>
