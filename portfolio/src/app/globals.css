@@ -23,13 +23,9 @@ body {
 
 
 #grad1 {
-  /* height: 100px; */
-  /* background-color: red; For browsers that do not support gradients */
-  /* background-image: linear-gradient(to right,black,  blue,  black); */
   background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
 }
 
 .grad1{
   background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
 }
-/* background-color: red; For browsers that do not support gradients */
