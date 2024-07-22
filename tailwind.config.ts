@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'custom-gradient': 'linear-gradient(90deg, #146EF5  -80%,  #080808 45%, #080808 55%, #3391CF 200%)',
       },
+      backgroundSize: {
+        'small-gradient': '50% 50%', // Adjust the size here
+      },
+      backgroundPosition: {
+        'gradient-position': 'center top', // Adjust the position here
+      },
+
     },
   },
   plugins: [],
