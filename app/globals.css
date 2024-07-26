@@ -4,3 +4,68 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-radial-gradient {
+    background: radial-gradient(
+      ellipse at right bottom,
+      rgba(20, 90, 245, 0.7),
+      #080808 35%
+    );
+  }
+
+  .setup-radial-gradient {
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgba(20, 110, 245, 0.7),
+      #080808 35%
+    )
+  }
+  
+  .template-left-radial-gradient {
+    background: radial-gradient(
+      ellipse at left top,
+      rgba(20, 110, 245, 0.7),
+      #080808 35%
+    );
+  }
+
+  .setup-right-radial-gradient {
+    background: radial-gradient(
+      ellipse at right top,
+      rgba(20, 110, 245, 0.7),
+      #080808 35%
+    );
+  }
+
+  .whychooseus-radial-gradient {
+    background: radial-gradient(
+      ellipse at right bottom,
+      #dcdee2 ,
+      rgba(20, 110, 245, 0.6),
+      #080808 45%
+    );
+  }
+  
+  .Digital-radial-gradient {
+    background: radial-gradient(
+      ellipse at left center,
+      rgba(9, 80, 187, 0.6)
+      #080808 40%
+    );
+  }
+
+  .pricing-section{
+    background: radial-gradient(
+      ellipse at left center,
+   rgba(20, 110, 245, 0.7),
+   #080808 40%
+
+    )
+  }
+  
+/* .Pricing{
+  background: linear-gradient(
+    90deg,
+   #000d20b3
+    
+
+} */
