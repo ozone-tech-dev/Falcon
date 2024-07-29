@@ -62,10 +62,20 @@
     )
   }
   
-/* .Pricing{
-  background: linear-gradient(
-    90deg,
-   #000d20b3
-    
+  .create-website {
+    background: radial-gradient(
+      ellipse at bottom,
+      #474747  ,
+      rgba(17, 61, 128, 0.6),
+      #080808 60%
+    );
+  }
 
-} */
+  .c-website {
+    background: radial-gradient(
+      ellipse at bottom,
+      #474747  ,
+      rgba(17, 61, 128, 0.6),
+      #080808 60%
+    );
+  }

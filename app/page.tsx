@@ -5,6 +5,10 @@ import Client from "../components/Clients"
 import WhyChooseUs from "@/components/WhyChooseUs"
 import DigitalBusiness from "@/components/DigitalBusiness"
 import Pricing from "@/components/Pricing"
+import FeaturedUsers from "@/components/FeaturedUsers"
+import Testimony from "@/components/Testimony"
+import Blog from "@/components/Blog"
+import CreateWebsite from "@/components/CreateYourWebsite"
 
 export default function Home() {
   return (
@@ -16,6 +20,10 @@ export default function Home() {
       <WhyChooseUs />
       <DigitalBusiness />
       <Pricing />
+      <FeaturedUsers />
+      <Testimony />
+      <Blog />
+      <CreateWebsite />
     </main>
 
   );

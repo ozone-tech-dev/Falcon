@@ -5,11 +5,11 @@ import { LuPackage } from "react-icons/lu";
 export default function Pricing(){
     const prices = [
         {
-          icon: <HiMiniSquare3Stack3D size={30}/>,
+          icon: <HiMiniSquare3Stack3D size={30} className="text-[#146EF5]"/>,
           pricetype:"Basic",
           othersprice:"3000",
           ours:"100 ",
-          duration:"/month",
+          duration:"/ month",
           currency:"Birr",
           whatwegive:"What's included",
          offers:[
@@ -20,11 +20,11 @@ export default function Pricing(){
          purchase:"Purchase"
         },
         {
-          icon: <FaCheck size={30}/>,
+          icon: <FaCheck size={30} className="text-[#146EF5]"/>,
           pricetype:"Growth",
           othersprice:"3000",
           ours:"300",
-          duration:"/month",
+          duration:"/ month",
           currency:"Birr",
           whatwegive:"What's included",
          offers:[
@@ -35,11 +35,11 @@ export default function Pricing(){
          purchase:"Purchase"
         },
         {
-          icon: <LuPackage size={30}/>,
+          icon: <LuPackage size={30} className="text-[#146EF5]"/>,
           pricetype:"Maturity",
           othersprice:"3000",
           ours:"300 ",
-          duration:"/month",
+          duration:"/ month",
           currency:"Birr",
           whatwegive:"What's included",
          offers:[
@@ -78,8 +78,10 @@ export default function Pricing(){
                        <p className="line-through  text-sm text-[#8E8E8E]">{othersprice}</p>
                        <div className="flex gap-x-2 items-center">
                         <p className="text-[#E0E0E0] text-[42px] font-semibold leading-[50.83px]">{ours}</p>
+                        <div className="flex items-center gap-x-2">
                         <p className="text-[#FFFFFF] text-[24px] font-semibold">{currency}</p>
-                        <p className="text-sm text-[#8E8E8E]">{duration}</p>
+                        <p className="text-sm text-[#8E8E8E] pt-2">{duration}</p>
+                        </div>
                        </div>
                     </div>
                      <div className="pt-24">

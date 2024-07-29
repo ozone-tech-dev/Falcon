@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function DigitalBUsiness(){
     return (
-        < main className="flex gap-x-4 px-20 py-40 font-poppins Digital-radial-gradient">
+        < main className="flex gap-x-4 px-20 py-40 font-poppins  Digital-radial-gradient">
             <div className="flex flex-col gap-y-8 ">
                 <h1 className="text-[#E4E4E4] text-[42px] font-semibold leading-[51px] max-w-2xl">
                     Digital Business Id Card For Your Excellent Business
