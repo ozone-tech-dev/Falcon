@@ -42,7 +42,7 @@ export default function FeaturedUsers(){
         }
     ]
     return(
-        <main className="px-20  py-14 flex flex-col gap-y-24">
+        <main className="px-20  py-14 flex flex-col gap-y-24  bg-featured-gradient font-poppins">
            <div className="flex items-center justify-between">
              <p className="text-[#E4E4E4] text-[42px] font-semibold">Take a look at the Featured Users</p>
              <div className="flex gap-x-2">
@@ -54,7 +54,7 @@ export default function FeaturedUsers(){
             {
                 users.map(({id,img, user,icon,website,follow}) =>(
                     <div key={id}
-                    className=" relative border border-[#232323] p-5 flex flex-col items-center gap-y-6  "
+                    className=" relative border border-[#232323] p-5 flex flex-col items-center gap-y-6  rounded-md"
                     >
                         <Image src={img} alt="users"
                         className="absolute bottom-52"

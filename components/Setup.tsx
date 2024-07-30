@@ -30,7 +30,7 @@ export default function Setup(){
     ]
     return(
 
-        <main className="flex flex-col gap-y-6 px-20 py-32 setup-radial-gradient ">
+        <main className="flex flex-col gap-y-6 px-20 py-32 bg-featured-gradient font-poppins">
              <div>
                 <p className="text-[42px] font-600 leading-[51px] text-[#E4E4E4] font-semibold">How To Setup Website</p>
              </div>

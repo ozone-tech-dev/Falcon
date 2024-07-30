@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar"
 
 export default function Hero (){
     return (
-        <main className="flex flex-col px-20 gap-6 min-h-screen items-center  justify-center py-10 bg-custom-gradient ">
+        <main className="flex flex-col px-20 gap-6 min-h-screen items-center  justify-center py-10 bg-custom-gradient font-poppins ">
        
            <div className="flex gap-x-16 items-center justify-center py-10 ">
               <div>

@@ -51,7 +51,7 @@ export default function Pricing(){
         }
     ]
     return(
-        <main className="flex flex-col items-center justify-center px-20 py-20 pricing-section">
+        <main className="flex flex-col items-center justify-center px-20 py-20 bg-pricing-gradient font-poppins">
            <div className="flex flex-col gap-y-6 items-center justify-center max-w-2xl">
               <p className="text-[#3391CF] text-[12px] font-semibold">Our Great Achievement Proved Us!</p>
               <h1 className="text-[#E4E4E4] text-[42px] text-center">

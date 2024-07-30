@@ -9,7 +9,7 @@ import rect from "../assets/pagination/rect1.png"
 
 export default function ClientSection(){
     return (
-        <main className="flex flex-col text-white items-center gap-y-10 py-20  custom-radial-gradient ">
+        <main className="flex flex-col text-white items-center gap-y-10 py-20  custom-radial-gradient font-poppins ">
             <div className="">
             <div className="flex flex-col items-center justify-center gap-y-6 ">
                 <p className="text-[#3391CF] text-[16px] font-semibold ">Our Great Achievement Proved Us!</p>
@@ -23,11 +23,11 @@ export default function ClientSection(){
                 <Image src={client3} alt="clientimg"/>
                 <Image src={client4} alt="clientimg"/>
             </div>
-            <div className="flex gap-x-2 items-center ">
-                <Image src={rect} alt="rectangle"/>
-                <Image src={rect} alt="rectangle" className="text-sky-600"/>
-                <Image src={rect} alt="rectangle"/>
-                <Image src={rect} alt="rectangle"/>
+            <div className="flex gap-x-2 items-center justify-center">
+                <Image src={rect} alt="rectangle" className="hover:bg-[#146EF5] rounded-md"/>
+                <Image src={rect} alt="rectangle" className="hover:bg-[#146EF5] rounded-md"/>
+                <Image src={rect} alt="rectangle" className="hover:bg-[#146EF5] rounded-md" />
+                <Image src={rect} alt="rectangle" className="hover:bg-[#146EF5] rounded-md"/>
             </div>
             </div>
         </main>

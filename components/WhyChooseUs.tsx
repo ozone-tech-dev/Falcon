@@ -41,7 +41,7 @@ export default function WhyChooseUs(){
         },
     ]
     return (
-        <main className="flex gap-x-10 items-center py-20 px-20 font-poppins whychooseus-radial-gradient">
+        <main className="flex gap-x-10 items-center py-20 px-20  whychooseus-radial-gradient font-poppins">
             <div className="flex flex-col gap-y-8 ">
                 <div className="flex flex-col gap-y-4">
                     <p className="text-[#3391CF] font-semibold text-[16px]">Why You Choose Our Template</p>

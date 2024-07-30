@@ -10,7 +10,7 @@ import Image from "next/image"
 export default function ModernTemplate(){
   const templates = [temp1,temp2,temp3,temp4,temp5,temp6];
     return(
-        <main className="flex flex-col items-center justify-center gap-y-20 px-20 template-left-radial-gradient  py-20">
+        <main className="flex flex-col items-center justify-center gap-y-20 px-20 template-left-radial-gradient font-poppins py-20">
             <div className="flex flex-col gap-y-6 items-center">
                 <p className="text-[#3391CF] font-semibold text-[12px]">Creative and User Friendly design</p>
                 <p className="text-[42px] font-semibold leading-[51px] text-[#E4E4E4]">See Our Modern Template</p>

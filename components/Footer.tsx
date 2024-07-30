@@ -2,7 +2,7 @@ import Logo from "@/components/Logo"
 
 export default function Footer (){
     return(
-        <main className=" flex flex-col px-44 items-center gap-y-2">
+        <main className=" flex flex-col px-44 items-center gap-y-2 font-poppins nav-gradient">
             <div className="flex gap-x-40  border-b py-10 justify-center">
                 <div>
                     <Logo />
@@ -35,7 +35,7 @@ export default function Footer (){
                 </div>
             </div>
 
-            <div className="w-full flex items-center justify-between  text-[16px] text-[#CCCCCC] text-sm">
+            <div className="w-full flex items-center justify-between  text-[16px] text-[#CCCCCC] text-sm pb-4">
                 <a>@falconwebsite</a>
                 <p>@copyright 2024</p>
             </div>

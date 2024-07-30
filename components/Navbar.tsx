@@ -4,7 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function Navbar(){
     return(
-        <main className="flex items-center justify-between px-40 py-[15px]  text-[#D6D6D6] bg-[rgb(8,8,8)] font-semibold text-[16px] ">
+        <main className="flex items-center justify-between px-40 py-[15px]  text-[#D6D6D6]  font-semibold text-[16px] font-poppins bg-custom-gradient ">
             <div>
                 <Logo />
             </div>

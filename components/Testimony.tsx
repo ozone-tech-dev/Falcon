@@ -58,7 +58,7 @@ export default function Testimony(){
     ]
 
     return(
-        <main className="px-20 flex flex-col items-center gap-y-10 justify-center  py-16">
+        <main className="px-20 flex flex-col items-center gap-y-10 justify-center  py-16 template-left-radial-gradient font-poppins">
           <div className="flex flex-col gap-y-4">
             <p className="text-sm text-center text-[#3391CF] text-[12px]">Our satisfied clients write us this testimonies</p>
             <h1 className="text-[42px] text-center  text-[#E4E4E4] font-semibold ">Our Clients Testimonial</h1>
